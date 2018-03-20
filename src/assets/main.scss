@@ -1,0 +1,10 @@
+@import '~bulma/bulma';
+
+.gradient {
+  background: linear-gradient(to right, grey, white);
+}
+
+.highlight {
+  color: #0b9444;
+  font-weight: 900;
+}
