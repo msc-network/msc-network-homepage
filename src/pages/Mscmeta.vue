@@ -12,8 +12,12 @@
         Tackling the big, wide world of Music related metadata is a big task, if you have ever used any online services for your Record Label, Publishing House, Sync company or other Music Company then you will be aware of the problems facing transmitting Metadata between all these different services. We are working towards a simple and open standard.
       </p>
       <p>
-        Development is on-going @ <a href="https://github.com/CromonMS/mscmetadata" target="_blank">Github</a>, please feel free to contribute and help our progress.
+        Development is currently on-going @ <a href="https://github.com/CromonMS/mscmetadata" target="_blank">Github</a>, please feel free to contribute and help our progress.
       </p>
+      <h5>Technical Stack</h5>
+      <ul>
+        <li>Protocol Buffers</li>
+      </ul>
     </div>
   </section>
 </template>

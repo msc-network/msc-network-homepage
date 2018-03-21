@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "node server.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
@@ -15,8 +15,11 @@
   },
   "dependencies": {
     "bulma": "^0.6.2",
+    "express": "^4.16.3",
+    "express-force-https": "^1.0.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
