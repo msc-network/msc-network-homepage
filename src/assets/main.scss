@@ -1,10 +1,17 @@
+$start-gradient: #6cf;
+$end-gradient: #fce17e;
+$footer-color: #fff;
+$highlight-color: #0b9444;
+
+$footer-background-color: transparentize($footer-color, 1);
+
 @import '~bulma/bulma';
 
 .gradient {
-  background: linear-gradient(to right, grey, white);
+  background: linear-gradient(to bottom right, $start-gradient, $end-gradient);
 }
 
 .highlight {
-  color: #0b9444;
+  color: $highlight-color;
   font-weight: 900;
 }

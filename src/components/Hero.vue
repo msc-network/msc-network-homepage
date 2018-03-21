@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <router-link to="/">
-          <img src="@/assets/mscnetwork-logo-text-600.png" alt="">
+          <img src="@/assets/mscnetwork-logo-text-600.png" alt="msc network" title="Home">
         </router-link>
         <h2 class="title">The msc <small class="subtitle">(pron. music)</small> network, making music tech more <span class="highlight">OPEN</span> and <span class="highlight">ACCESSIBLE</span></h2>
       </div>

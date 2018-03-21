@@ -1,5 +1,5 @@
 <template>
-  <section class="section gradient">
+  <section class="section">
     <div class="content">
       <img src="@/assets/mscmgmt-logo-text-600.png" alt="mscmgmt">
     </div>

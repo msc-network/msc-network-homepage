@@ -1,41 +1,29 @@
 <template>
   <section class="section">
-    <nav class="level">
-      <div class="level-left">
-        <p class="level-item"><img src="@/assets/mscmgmt-logo-text-600.png" alt="mscmgmt"></p>
+    <div class="content">
+      <p class="title">
+        <router-link :to="{name: 'Mscmgmt'}">
+          <img src="@/assets/mscmgmt-logo-text-600.png" alt="mscmgmt" title="mscmgmt">
+        </router-link>
+      </p>
+      <p class="subtitle is-4 is-hidden-touch">Label and Catalogue Management System</p>
+      <p class="subtitle is-4 has-text-centered is-hidden-desktop">Label and Catalogue Management System</p>
+      <div class="is-hidden-desktop has-text-centered">
+        <router-link :to="{name: 'Mscmgmt'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
       </div>
-      <div class="level-right">
-        <h3 class="title">Label and Catalogue Management System</h3>
-        <p class="level-item"></p>
-        <p class="level-item">
-          <router-link :to="{name: 'Mscmgmt'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
-        </p>
+    </div>
+    <div class="content">
+      <p class="title">
+        <router-link :to="{name: 'Mscmgmt'}">
+          <img src="@/assets/mscmeta-logo-text-600.png" alt="mscmeta" title="mscmeta">
+        </router-link>
+      </p>
+      <p class="subtitle is-4 is-hidden-touch">Standardise your Metadata</p>
+      <p class="subtitle is-4 has-text-centered is-hidden-desktop">Standardise your Metadata</p>
+      <div class="is-hidden-desktop has-text-centered">
+        <router-link :to="{name: 'Mscmeta'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
       </div>
-    </nav>
-    <nav class="level">
-      <div class="level-left">
-        <p class="level-item"><img src="@/assets/mscmeta-logo-text-600.png" alt="mscmeta"></p>
-      </div>
-      <div class="level-right">
-        <h3 class="title">Standardise your Metadata</h3>
-        <p class="level-item"></p>
-        <p class="level-item">
-          <router-link :to="{name: 'Mscmeta'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
-        </p>
-      </div>
-    </nav>
-<!--     <nav class="level">
-      <div class="level-left">
-        <p class="level-item"><img src="../assets/mscmgmt-logo-text-600.png" alt=""></p>
-      </div>
-      <div class="level-right">
-        <p class="level-item"><h3 class="title">Description</h3></p>
-        <p class="level-item"></p>
-        <p class="level-item">
-          <router-link :to="{name: 'Mscmgmt'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
-        </p>
-      </div>
-    </nav> -->
+    </div>
   </section>
 </template>
 
