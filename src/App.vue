@@ -1,7 +1,7 @@
 <template>
-  <transition name="fade">  
+  <transition name="fade">
     <div id="app" class="gradient">
-      <div class="content"
+      <div class="content">
         <!-- <nav-bar></nav-bar> -->
         <app-hero></app-hero>
         <transition name="fade">
