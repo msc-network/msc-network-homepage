@@ -11,7 +11,7 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js",
-    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "yarn build; git add -A; git commit -m 'Build'; git push heroku master"
   },
   "dependencies": {
     "bulma": "^0.6.2",

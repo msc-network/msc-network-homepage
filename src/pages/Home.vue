@@ -14,7 +14,7 @@
     </div>
     <div class="content">
       <p class="title">
-        <router-link :to="{name: 'Mscmgmt'}">
+        <router-link :to="{name: 'Mscmeta'}">
           <img src="@/assets/mscmeta-logo-text-600.png" alt="mscmeta" title="mscmeta">
         </router-link>
       </p>
