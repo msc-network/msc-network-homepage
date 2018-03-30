@@ -6,6 +6,7 @@ yarn-error.log*
 /test/unit/coverage/
 /config/deploy/
 /config/deploy.rb
+/log/
 
 # Editor directories and files
 .idea
