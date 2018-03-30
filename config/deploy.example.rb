@@ -3,8 +3,8 @@
 # config valid for current version and patch releases of Capistrano
 lock '~> 3.10.1'
 
-set :application,       'APP NAME'
-set :repo_url,          'APP REPO'
+set :application,       'mscnet.work'
+set :repo_url,          'https://github.com/msc-network/msc-network-homepage.git'
 
 set :deploy_via,        :copy
 # set :copy_exclude,      ['.git', 'node_modules']
@@ -20,24 +20,12 @@ set :use_sudo,          false
 set :keep_releases,     3
 set :git_shallow_clone, 1
 
-ssh_options[:paranoid] = false
+set :ssh_options { paranoid: false }
 
 namespace :deploy do
-  desc <<-DESC
-    Deploys the latest version of the app
-  DESC
-  task :default do
-    transaction do
-      update_code
-    end
-  end
-
-  task :update_code, except: { no_release: true } do
-    on_rollback { run "rm -rf #{project_path}; true" }
-    strategy.deploy!
-  end
-
-  task :after_deploy do
-    cleanup
+  after :updated do
+    invoke 'vue:vue_install'
+    invoke 'vue:vue_build'
+    invoke 'vue:vue_logs'
   end
 end
