@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="content">
-      <!-- <img src="@/assets/mscanalysis-logo-text-600.png" alt="mscanalysis"> -->
+      <img src="@/assets/mscanalysis-logo-text-600.png" alt="mscanalysis">
     </div>
     <div class="content">
       <div class="columns">
@@ -10,6 +10,7 @@
           <p>
             Currently under development.
           </p>
+          <p>Help us out here <a href="https://github.com/msc-network/msc-analysis" target="_blank">Github</a></p>
           <h5>Technical Stack</h5>
           <ul>
             <li>Ruby</li>

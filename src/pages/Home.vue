@@ -24,6 +24,18 @@
         <router-link :to="{name: 'Mscmeta'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
       </div>
     </div>
+    <div class="content">
+      <p class="title">
+        <router-link :to="{name: 'Mscanalysis'}">
+          <img src="@/assets/mscanalysis-logo-text-600.png" alt="mscanalysis" title="mscanalysis">
+        </router-link>
+      </p>
+      <p class="subtitle is-4 is-hidden-touch">Music Analysis tools</p>
+      <p class="subtitle is-4 has-text-centered is-hidden-desktop">Music Analysis tools</p>
+      <div class="is-hidden-desktop has-text-centered">
+        <router-link :to="{name: 'Mscanalysis'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
+      </div>
+    </div>
   </section>
 </template>
 
