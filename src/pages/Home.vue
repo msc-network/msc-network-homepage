@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div class="content">
+    <div class="content has-text-centered">
       <p class="title">
         <router-link :to="{name: 'Mscmgmt'}">
           <img src="@/assets/mscmgmt-logo-text-600.png" alt="mscmgmt" title="mscmgmt">
@@ -12,7 +12,7 @@
         <router-link :to="{name: 'Mscmgmt'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
       </div>
     </div>
-    <div class="content">
+    <div class="content has-text-centered">
       <p class="title">
         <router-link :to="{name: 'Mscmeta'}">
           <img src="@/assets/mscmeta-logo-text-600.png" alt="mscmeta" title="mscmeta">
@@ -24,7 +24,7 @@
         <router-link :to="{name: 'Mscmeta'}"><button class="button is-info is-large">FIND OUT MORE</button></router-link>
       </div>
     </div>
-    <div class="content">
+    <div class="content has-text-centered">
       <p class="title">
         <router-link :to="{name: 'Mscanalysis'}">
           <img src="@/assets/mscanalysis-logo-text-600.png" alt="mscanalysis" title="mscanalysis">
