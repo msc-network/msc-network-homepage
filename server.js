@@ -6,9 +6,9 @@ const serveStatic = require('serve-static')
 const app = express()
 
 app.use(secure)
-app.use("/", serveStatic (path.join(__dirname, '/dist')))
+app.use("/", serveStatic (path.join(__dirname, '/html')))
 app.get("/*", function (req, res) {
-  res.sendFile(__dirname, '/dist/index.html')
+  res.sendFile(__dirname, '/html/index.html')
 })
 
 const port = process.env.PORT || 5000
